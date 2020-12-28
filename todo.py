@@ -53,7 +53,6 @@ class TodoItem:
     def __str__(self):
         if self.exp_date is None:
             return self.title
-j;odsl;hjdoh
         # Set the amount of days left as the timedelta from today to the expiration date, in days.
         days_left = self.days_left
 
